@@ -1,0 +1,45 @@
+.h1{
+font-family:sans-serif;
+font-weight:400;
+letter-spacing:;
+color:#3d3d3d;
+font-size:20px;
+}
+
+.box{
+background-color:white;
+width:400px;
+}
+
+.buton{
+color:white;
+background-color:#007bff;
+font-size:15px;
+border-radius:3px;
+outline:none;
+font-family:sans-serif;
+font-weight:700;
+border:0;
+width:300px;
+height:40px;
+max-width:99%;
+max-height:50px;
+}
+
+.password{
+background-color:#000000;
+border:0;
+outline:none;
+border-radius:6px;
+width:220px;
+height:35px;
+font-size:16px;
+}
+
+.b{
+    font-size: 14px;
+    line-height: 14px;
+    margin: -2px 0 -3px;
+    color: #8e8e8e;
+    text-decoration: none;
+}

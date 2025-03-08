@@ -1,0 +1,17 @@
+=============================
+       Z - Panel V6 
+=============================
+ - Güncellenen Özellikler -
+
++ /install Getirildi
++ PP API Yenilendi
++ SMS API Getirildi
++ Telegram API Yenilendi
++ Sistem Hataları Giderildi 
++ Yeni Scriptler Eklendi
++ Favicon Yenilendi
++ Meta Taglar yeniden Düzenlendi
++ Admin Meta Taglar Düzenlendi
++ Admin Login Hatası Giderildi
++ Kendi Scriptini Yapma Özelliği Getirildi
++ SQL Yenilendi 

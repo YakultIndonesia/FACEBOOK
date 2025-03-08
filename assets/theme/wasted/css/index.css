@@ -1,0 +1,44 @@
+.h1{
+font-family:sans-serif;
+font-weight:200;
+letter-spacing:;
+color:#3d3d3d;
+font-size:20px;
+}
+
+.p{
+width:30%;
+color:#999;
+font-family:sans-serif;
+}
+
+.username{
+outline: none;
+width: 21rem;
+height:3rem;
+border: none;
+border-bottom: 1px solid lightgray;
+background: transparent;
+}
+
+.button{
+color:white;
+background-color:#007bff;
+font-size:14px;
+border-radius:5px;
+outline:none;
+font-family:sans-serif;
+font-weight:540;
+border:0;
+width:150px;
+height:32px;
+font-weight:bold;
+}
+
+.b{
+    font-size: 14px;
+    line-height: 14px;
+    margin: -2px 0 -3px;
+    color: #8e8e8e;
+    text-decoration: none;
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700');
+
+body {
+font-family: 'Fira Sans', sans-serif;
+color: #fff;  
+background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+background-repeat: no-repeat;  
+background-size: cover;  
+}
+
+.logo-container {
+  margin: 15% 0 3%;
+  text-align: center;
+}
+
+.logo-container img {
+  width: 250px;
+}
+
+.login-form-container {
+  width: 30%;
+  margin: 0 auto 14%;
+}
+
+.login-form-container form {
+  margin: 0 auto;
+}
+
+.login-form-container form input {
+  width: calc(100% - 30px);
+  margin: 0 auto 20px;
+  padding: 10px 15px;
+  height: 25px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: .3px;
+  transition: all .3s ease;  
+}
+
+.login-form-container form input:focus {
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.45);
+}
+::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.login-form-container form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15%;
+  padding: 15px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.45);
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .3px;
+  transition: all .3s ease;  
+}
+
+.login-form-container form button:hover {
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+.login-form-container form p {
+  text-align: center;
+}
+
+.login-form-container form p a {
+  display: block;
+  margin: 15px 0 20px;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: .3px;
+  text-decoration: none;
+}
+
+.app-download-links {
+  text-align: center;
+}
+
+.app-download-links p {
+  margin-bottom: 25px;
+}
+.app-download-links a img {
+  height: 45px;
+  margin: 0 7px 20px;
+}
