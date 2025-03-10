@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "requirements.txt",
+      "use": "@vercel/python",
+      "config": {
+        "install": "pip install -r requirements.txt"
+      }
+    },
+    {
+      "src": "example_web_apps/server.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "example_web_apps/server.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "example_web_apps/server.py"
+    }
+  ],
+  "env": {
+    "PYTHONPATH": "./example_web_apps"
+  }
+}
