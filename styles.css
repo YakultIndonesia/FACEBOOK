@@ -1,0 +1,86 @@
+/* General Styles */ body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; text-align: center; }
+
+/* Header */ header { background-color: #fff; padding: 10px 20px; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); }
+
+.logo img { height: 50px; }
+
+nav input { padding: 10px; width: 250px; border: 1px solid #ddd; border-radius: 5px; }
+
+nav button { padding: 10px; background-color: #ff7300; color: white; border: none; cursor: pointer; border-radius: 5px; }
+
+/* Banner */ .banner img { width: 100%; max-height: 250px; object-fit: cover; }
+
+/* Category & Subcategory */ .kategori-container, .produk-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; padding: 20px; }
+
+.kategori-item, .produk-item { background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); text-align: center; transition: 0.3s; width: 150px; cursor: pointer; }
+
+.kategori-item:hover, .produk-item:hover { transform: scale(1.05); }
+
+.kategori-item img, .produk-item img { width: 100px; height: 100px; object-fit: contain; }
+
+.kategori-item p, .produk-item h3 { margin-top: 10px; font-weight: bold; }
+
+.produk-item p { color: #ff7300; font-weight: bold; }
+
+/* Footer */ footer { background: #fff; padding: 20px; box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); }
+
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Kategori Container */
+.kategori-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Item Subkategori */
+.kategori-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 20px; /* Membuat sudut lebih halus */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s;
+    width: 120px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.kategori-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 15px; /* Agar gambar juga memiliki sudut lembut */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efek Saat Diklik */
+.kategori-item.active {
+    box-shadow: 0 0 10px #00aaff;
+    border: 2px solid #00aaff;
+}
+
+.kategori-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    display: none; /* Teks subkategori disembunyikan dulu */
+}
+
+/* Menampilkan teks saat item aktif */
+.kategori-item.active p {
+    display: block;
+}
